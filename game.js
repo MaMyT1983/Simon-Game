@@ -15,7 +15,9 @@ $(".start-button").click(function() {
 
     started = true;
 
-    $("h1").removeClass("h1-red");
+    setTimeout(function() {
+      $("h1").removeClass("h1-red");
+    }, 500);
 
     setTimeout(function() {
       $(".start-button").addClass("start-button-invisible");
