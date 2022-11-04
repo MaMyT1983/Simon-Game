@@ -19,6 +19,7 @@ $(".start-button").click(function() {
 
     setTimeout(function() {
       $(".start-button").addClass("start-button-invisible");
+      $('h1').text('Ниво 1');
     }, 500);
   } else {}
 
