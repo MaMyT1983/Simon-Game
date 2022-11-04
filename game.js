@@ -11,7 +11,7 @@ $(".start-button").click(function() {
   if (started === false) {
     setTimeout(function() {
       nextSequence();
-    }, 500);
+    }, 1000);
 
     started = true;
 
