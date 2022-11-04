@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: #251B37;
+}
+
+h1 {
+  font-family: 'Pangolin', cursive;
+  font-size: 3.5rem;
+  margin: 1.5%;
+  color: #FEF2BF;
+}
+
+.h1-red {
+  color: #EB1D36;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.start-button {
+  margin: 15px;
+  display: inline-block;
+  /* height: 50px;
+  width: 200px; */
+  border: 10px solid black;
+  border-radius: 20%;
+  padding: 10px;
+  font-size: 3rem;
+  font-family: 'Pangolin', cursive;
+  color: black;
+  background-color: #FEF2BF;
+}
+
+.start-button {
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #ECC5FB;
+}
+
+.start-button-invisible {
+  visibility: hidden;
+  position: absolute;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px #FFEF82;
+  background-color: grey;
+}
+
+@media (max-width: 1028px) {
+
+#level-title {
+  font-size: 4.5rem;
+}
+
+}
